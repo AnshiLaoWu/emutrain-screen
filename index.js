@@ -47,6 +47,7 @@ function checkMarqueeComplete() {
     if (newPos + marquee.scrollWidth < 0) {
       marquee.style.left = (container.offsetWidth + 10) + 'px';
       text = (text + 1) % lines.length;
+      if (text === 0) text = 3;
       marquee.innerHTML = lines[text];
       setTimeout(animate, 1000);
       if (hasChinese(lines[text])) {
