@@ -16,7 +16,7 @@ body{background-color:#000;}
     top:250px;
     left:1470px;
 }
-.coach{
+#coach{
     color:#0f9dfa;
     font-family:微软雅黑;
     font-size:200px;
@@ -26,7 +26,7 @@ body{background-color:#000;}
     top:0px;
     left:50px;
 }
-.temp{
+#temp{
     color:#0f9dfa;
     font-family:微软雅黑;
     font-size:36px;
