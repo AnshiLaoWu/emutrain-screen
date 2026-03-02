@@ -1,0 +1,36 @@
+body{background-color:#000;}
+.smoke{
+    width:130px;
+    position:absolute;
+    top:70px;
+    left:1200px;
+}
+#coach{
+    color:#ed7d31;
+    font-family:宋体;
+    font-size:125px;
+    line-height:100px;
+    user-select:none;
+    position:absolute;
+    top:0px;
+    left:50px;
+}
+.marquee-container{
+    flex:2;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+    width:950px;
+    height:90px;
+    top:80px;
+    left:170px;
+}
+#text{
+    white-space:nowrap;
+    position:absolute;
+    color:#ed7d31;
+    font-family:宋体;
+    font-size:90px;
+    user-select:none;
+}
